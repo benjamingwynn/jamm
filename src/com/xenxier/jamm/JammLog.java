@@ -23,6 +23,6 @@ public class JammLog {
     }
     
     public static void fmlLog(Level logLevel, Object object) {
-		FMLLog.log(JammID.mod.MODID, logLevel, String.valueOf(object));
+		FMLLog.log(JammID.mod.MODNAME, logLevel, String.valueOf(object));
     }
 }

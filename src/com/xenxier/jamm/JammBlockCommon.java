@@ -19,6 +19,6 @@ public class JammBlockCommon extends Block {
 
 	public static void loadJammBlocks() {
 		JammLog.log('I', "Registering blocks...");
-		GameRegistry.registerBlock(new JammBlockTestBlock(), "tile." + BlockName.TESTBLOCK);
+		GameRegistry.registerBlock(new JammBlockTestBlock(), BlockName.TESTBLOCK);
 	}
 }
