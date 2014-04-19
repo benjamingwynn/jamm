@@ -4,15 +4,14 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = JammMain.MODID, version = JammMain.VERSION)
+@Mod(modid = JammID.mod.MODID, version = JammID.mod.VERSION)
 
 public class JammMain {
-	public static final String MODID = "JAMM";
-	public static final String VERSION = "0.1";
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		startLoad();
+		JammBlockCommon.loadJammBlocks();
 		endLoad();
 	}
 	
@@ -21,7 +20,7 @@ public class JammMain {
 	}
 	
 	void endLoad() {
-		JammLog.log('I', "Just Another Minecraft Mod - Version " + VERSION);
+		JammLog.log('I', "Just Another Minecraft Mod - Version " + JammID.mod.VERSION);
 		JammLog.log('I', "Created by Benjamin Gwynn (Xenxier) - http://xenxier.tk");
 	}
 }
