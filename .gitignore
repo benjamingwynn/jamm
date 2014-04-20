@@ -1,5 +1,8 @@
 .classpath
 .project
 .settings/*
-.bin/*
+bin
+bin/*
+bin/assets/jamm/textures/*/*
+bin/assets/jamm/lang/*
 *.class
