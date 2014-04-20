@@ -5,7 +5,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-public class JammCraft {
+public class JammCrafting {
 
 	public static void loadCraftingRecipes() {
 		JammLog.log('I', "Registering Crafting Recipes...");

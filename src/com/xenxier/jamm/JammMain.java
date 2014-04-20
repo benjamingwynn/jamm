@@ -14,7 +14,7 @@ public class JammMain {
 	public void init(FMLPreInitializationEvent event) {
 		startLoad();
 		JammBlocks.loadJammBlocks();
-		JammCraft.loadCraftingRecipes();
+		JammCrafting.loadCraftingRecipes();
 	}
 	
 	@EventHandler
