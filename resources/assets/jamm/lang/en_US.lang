@@ -2,3 +2,6 @@
 
 tile.TestBlock.name=JAMM Test Block
 tile.DampWood.name=Damp Wood
+tile.DriedWood.name=Dried Wood
+tile.CompressedWood.name=Compressed Wood
+tile.StoneWood.name=Stone Wood

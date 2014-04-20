@@ -10,5 +10,8 @@ public class JammID {
 	public class BlockName {
 		public static final String TESTBLOCK = "TestBlock";
 		public static final String DAMPWOOD = "DampWood";
+		public static final String DRIEDWOOD = "DriedWood";
+		public static final String COMPRESSEDWOOD = "CompressedWood";
+		public static final String STONEWOOD = "StoneWood";
 	}
 }
