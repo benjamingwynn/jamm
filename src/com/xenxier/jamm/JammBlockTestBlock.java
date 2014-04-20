@@ -16,20 +16,6 @@ public class JammBlockTestBlock extends JammBlockCommon {
 		this.setHardness(2.0f);
 		this.setBlockName(BlockName.TESTBLOCK);
         this.setStepSound(soundTypeWood);
-	}
-	
-	@SideOnly(Side.CLIENT)
-	protected IIcon blockIcon;
-	
-	@SideOnly(Side.CLIENT)
-	@Override
-	public void registerBlockIcons(IIconRegister p_149651_1_) {
-		blockIcon = p_149651_1_.registerIcon(mod.MODID + ":" + this.getUnlocalizedName().substring(5));
-	}
-	
-	@SideOnly(Side.CLIENT)
-	@Override
-	public IIcon getIcon(int p_149691_1_, int p_149691_2_) {
-		return blockIcon;
+        setBlockTextureName(mod.MODID + ":" + BlockName.TESTBLOCK);
 	}
 }
