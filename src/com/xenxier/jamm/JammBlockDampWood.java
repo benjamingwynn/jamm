@@ -10,11 +10,11 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.util.IIcon;
 
-public class JammBlockTestBlock extends JammBlockCommon {
-	public JammBlockTestBlock() {
+public class JammBlockDampWood extends JammBlockCommon {
+	public JammBlockDampWood() {
 		super(Material.wood);
-		this.setHardness(2.0f);
-		this.setBlockName(BlockName.TESTBLOCK);
+		this.setHardness(1.2f);
+		this.setBlockName(BlockName.DAMPWOOD);
         this.setStepSound(soundTypeWood);
 	}
 	

@@ -9,5 +9,6 @@ public class JammID {
 	
 	public class BlockName {
 		public static final String TESTBLOCK = "TestBlock";
+		public static final String DAMPWOOD = "DampWood";
 	}
 }
