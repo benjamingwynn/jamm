@@ -9,7 +9,7 @@ public class JammCraft {
 
 	public static void loadCraftingRecipes() {
 		JammLog.log('I', "Registering Crafting Recipes...");
-		GameRegistry.addShapedRecipe(new ItemStack(JammBlocks.damp_wood), 8, new Object[] {
+		GameRegistry.addRecipe(new ItemStack(JammBlocks.damp_wood, 8), new Object[] {
 	    	"AAA",
 	    	"ABA",
 	    	"AAA",
