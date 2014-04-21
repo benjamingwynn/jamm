@@ -28,5 +28,9 @@ public class JammCrafting {
 	    	"ABA",
 	    	"ABA",
 	    	'A', JammBlocks.compressed_wood, 'B', Blocks.stone });
+		
+		JammLog.log('I', "Registering Furnace Recipes...");
+		
+		// TODO: Furnace recipe Damp Wood -> Dried Wood
 	}
 }
